@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.AppRouter {
+  height: 200px;
+  padding-top: 30px;
+  overflow-y: scroll;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 200px;
 }
